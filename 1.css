@@ -1,5 +1,40 @@
 *{margin: 0; padding: 0;}
 
+a.nuthire.btn.btn-primary {
+    background: black;
+    width: 180px;
+    border: none;
+    border-radius: 5px;
+}
+
+.tt p {
+    color: #373a3c;
+    font-size: 15px;
+    line-height: 24px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 34px;
+}
+
+.tt h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.tt img {
+    border-radius: 50%;
+    padding-bottom: 31px;
+    width: 15%;
+}
+
+.tt {
+    z-index: 2;
+    position: relative;
+    padding-top: 20%;
+}
+
 .khoitt1:before {
     content: "";
     position: absolute;
