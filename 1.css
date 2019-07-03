@@ -1,5 +1,9 @@
 *{margin: 0; padding: 0;}
 
+img#logo {
+    width: 100px;
+}
+
 .xuong {
     width: 38px;
     height: 62px;
@@ -141,9 +145,9 @@ a.nav-link {
 
 } 
 nav.navbar.navbar-light.bg-faded {
-	margin: 0;
-	padding: 0;
-	height: 100px;
+    margin: 0;
+    padding: 0;
+    height: 100px;
 }
 
 nav.navbar.navbar-light.bg-faded.navbar-fixed-top {
@@ -151,36 +155,36 @@ nav.navbar.navbar-light.bg-faded.navbar-fixed-top {
 }
 
 li.nav-item{
-	margin: 0;
-	padding: 0;
-	margin: 0 1px;
+    margin: 0;
+    padding: 0;
+    margin: 0 1px;
 }
 
 @media (max-width: 576px){
-	a.navbar-brand {
-		display: block;
-		text-align: center;
-		width: 100%;
-	}
-	a.nav-link {
-		line-height: 20px;
-		display: inline!important;
-	}
-	li.nav-item {
-		display: inline!important;
-		float: none!important;
-	}
+    a.navbar-brand {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    a.nav-link {
+        line-height: 20px;
+        display: inline!important;
+    }
+    li.nav-item {
+        display: inline!important;
+        float: none!important;
+    }
 
-	ul.nav.navbar-nav.float-xs-right {
-		text-align: center!important;
-		background: white;
-		margin:0;
-		padding:0;
-		width: 109%;
-		position: relative;
-		left: 15px;
-		border-top: 1px dashed #afacac;
-	}
+    ul.nav.navbar-nav.float-xs-right {
+        text-align: center!important;
+        background: white;
+        margin:0;
+        padding:0;
+        width: 109%;
+        position: relative;
+        left: 15px;
+        border-top: 1px dashed #afacac;
+    }
 
 .tt h2 {
     font-size: 22px;
