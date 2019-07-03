@@ -199,8 +199,8 @@ li.nav-item{
 }
 
 .tt p {
-    /* line-height: 20px; */
-    /* width: 100%; */
+    line-height: 20px;
+    width: 100%;
 }
 
 .tt img {
