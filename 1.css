@@ -106,10 +106,6 @@ a.nuthire.btn.btn-primary {
     /* cursor: pointer; */
 }
 
-.tt img:hover {
-    width: 25%;
-}
-
 .tt {
     z-index: 2;
     position: relative;
