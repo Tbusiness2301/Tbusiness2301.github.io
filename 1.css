@@ -1,5 +1,33 @@
 *{margin: 0; padding: 0;}
 
+.xuong {
+    width: 38px;
+    height: 62px;
+    border: white solid 1px;
+    position: absolute;
+    left: 50%;
+    bottom: 2%;
+    border-radius: 42%;
+    margin-left: -19px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.xuong:hover {
+    bottom: 4%;
+}
+
+.xuong:after {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 8px;
+    background: white;
+    left: 50%;
+    bottom: 70%;
+    margin-left: -2px;
+}
+
 span.motaqt1 {
     color: #969494;
 }
