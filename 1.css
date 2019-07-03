@@ -96,7 +96,7 @@ a.nuthire.btn.btn-primary {
     line-height: 24px;
     width: 50%;
     margin: auto;
-    margin-bottom: 34px;
+    margin-bottom: 20px;
 }
 
 .tt h2 {
@@ -199,8 +199,8 @@ li.nav-item{
 }
 
 .tt p {
-    line-height: 20px;
-    width: 100%;
+    /* line-height: 20px; */
+    /* width: 100%; */
 }
 
 .tt img {
