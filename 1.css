@@ -13,6 +13,15 @@ p {
 }
 
 h3 {
+	display: inline-block;
+  padding: 0.3em 0.5em;
+  text-decoration: none;
+  border-left: solid 6px #f7817c;/*左線*/
+  border-bottom: solid 1px #efabab;/*左線*/
+
+  font-weight: bold;
+  /*box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.29);*/
+
     font-size: 30px;
     font-family: 'Roboto', arial, sans-serif;
     color: #efabab;
@@ -34,17 +43,6 @@ blockquote.blockquote {
 	background: transparent;
 }
 
-/*a.logo {
-	font-family: 'Roboto Slab', serif;
-	font-size: 22px;
-	background: #ec6952;
-	padding: 31px 18px;
-	position: relative;
-	top: -8px;
-	border-bottom-left-radius: 5px;
-	border-bottom-right-radius: 5px;
-	font-weight: 700;
-}*/
 
 a.logo {
 	width: 370px;
@@ -111,7 +109,7 @@ background: #ec6952;
 	height:0px;
 	border-bottom: 10px solid transparent;
 	border-top: 10px solid transparent;
-	border-right: 10px solid #efabab; /* Tam giác phải được đổ màu */
+	border-right: 10px solid #efabab;
 	position: absolute;
 	left: 100px;
 	top: 26px
@@ -137,10 +135,30 @@ background: #ec6952;
 	background: white;
 }
 
+.buttonup{
+	color: #efabab;
+	transition: 0.3s;
+}
+
+.buttonup:hover{
+	color: #f3e7e7;
+}
+
 @media (max-width:576px){
 	* {
 		
 	}
+
+blockquote.blockquote {
+    width: 76%;
+    position: relative;
+    top: -79px;
+    left: 94px;
+}
+
+.avatar {
+    width: 70px;
+}
 	a.logo {
 		width:200px;
 		height:60px;
