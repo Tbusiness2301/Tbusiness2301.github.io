@@ -1,16 +1,19 @@
-﻿ $(function(){
- 	vitricuaedu = $('#khoiedu').offset().top;
- 	vitricuacmt = $('#khoicmt').offset().top;
- 	//console.log(vitricuaedu);
+ $(function(){
+ 	$(window).scroll(function() {
+ 		/* Act on the event */
+ 		 if( $(".body").scrollTop()>100) {
+ 		$(".logo").addClass('chucam');
+ 		 }
 
- 	$(".xuong,.kn").click(function() {
- 		/* Act on the event */
- 		$('body,html').animate({scrollTop:vitricuaedu},600)
+ 		// else{
+ 		// 	$(".logo").removeClass('chucam');
+ 		// }
  	});
-	
-	 $(".cmt").click(function() {
+
+ 	$('.buttonup').click(function() {
  		/* Act on the event */
- 		$('body,html').animate({scrollTop:vitricuacmt},600)
+ 		$('.body').animate({'scrollTop':0});
+ 		return false;
  	});
 })  
  
