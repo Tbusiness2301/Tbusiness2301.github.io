@@ -1,19 +1,17 @@
  $(function(){
- 	$(window).scroll(function() {
+ 	// jquery cho phan hieu ung
+ 	$('ul.tdtab li b').click(function() {
  		/* Act on the event */
- 		 if( $(".body").scrollTop()>100) {
- 		$(".logo").addClass('chucam');
- 		 }
+ 		$('ul.tdtab li b').removeClass('active');
+ 		$(this).addClass('active');
+ 		chiso = $(this).parent().index() + 1;
 
- 		// else{
- 		// 	$(".logo").removeClass('chucam');
- 		// }
+ 		$('ul.ndtab li .divsanpham').removeClass('xuathien');
+ 		$('ul.ndtab li:nth-child(' + chiso + ') .divsanpham').addClass('xuathien');
+
  	});
 
- 	$('.buttonup').click(function() {
- 		/* Act on the event */
- 		$('.body').animate({'scrollTop':0});
- 		return false;
- 	});
+ 	//hieu ung cuon chuot
+ 	new WOW().init();
 })  
  

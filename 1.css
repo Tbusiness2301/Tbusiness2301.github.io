@@ -1,10 +1,104 @@
 *{margin: 0; padding: 0;}
 
-.tieude h2 {
+/*-------CSS CHO MENU TOP-------*/
+.menutop a.navbar-brand {
+    display: block;
+    float: none;
+    text-align: center;
+    padding: 30px 0px;
+    margin: unset;
+}
+
+.menutop ul.nav.navbar-nav {
+	text-align: center;
+	display: block;
+	padding-bottom: 10px;
+}
+
+.menutop .navbar-nav .nav-item {
+	float:none;
+	display: inline;
+}
+
+.menutop .navbar-light .navbar-nav li >.nav-link{
+   display: inline;
+   border-right: 1px solid #c7c7c7;
+   padding: 0px 24px;
+   text-align: center;
+}
+
+.menutop .menuphai a.nav-link {
+	text-transform: uppercase;
+	padding:32px 23px;
+	font-size: 14px;
+	font-family: 'Roboto Slab', serif;  
+	/*color: white;*/
+	transition: 0.3s;
+}
+
+.menutop .menuphai li.active a.nav-link {
+	color:#f7817c;
+}
+.menutop .menuphai a.nav-link:hover{
+	color: #f7817c;
+	font-size: 16px;
+}
+
+/*-------HET XU LY CSS CHO MENUTOP-------*/
+
+
+/*--------------XU LY CSS CHO SLIDE-------*/
+
+/*.slide1 {
+	position: relative;
+	background: white;
+}
+
+.slide1 .container {
+	position: absolute;
+	top:30%;
+}*/
+
+/*-------XU LY CSS CHO BANNER-------*/
+
+.banner img {
+	position: relative;
+}
+
+.banner {
+	font-family: 'Roboto', arial, sans-serif;
+	color:#917d7f;
+	font-weight: bold;
+}
+
+.banner a {
+	font-size: 20px;
+	font-family: "roboto slab", serif;
+	font-weight: 700;
+	padding: 10px 40px;
+	background: #ec6952;
+}
+
+/*-------HET XU LY CSS CHO BANNER-------*/
+
+/*-------XU LY CSS CHO PHAN SERVICE-------*/
+
+.col-sm-1.line {
+    height: 3px;
+    background: red;
+    position: relative;
+    top: 22px;
+}
+
+h2 {
     font-size: 40px;
     font-family: 'Roboto', arial, sans-serif;
     font-weight: 700;
     color: #f7817c;
+}
+
+.tinhome h2.tieudeto {
+    padding-top: 60px;
 }
 
 p {
@@ -12,16 +106,13 @@ p {
     color: #756c6c;
 }
 
-h3 {
+.s3 h3 {
 	display: inline-block;
-  padding: 0.3em 0.5em;
-  text-decoration: none;
-  border-left: solid 6px #f7817c;/*左線*/
-  border-bottom: solid 1px #efabab;/*左線*/
-
-  font-weight: bold;
-  /*box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.29);*/
-
+	padding: 0.3em 0.5em;
+	text-decoration: none;
+	border-left: solid 6px #f7817c;
+	border-bottom: solid 1px #efabab;
+    font-weight: bold;
     font-size: 30px;
     font-family: 'Roboto', arial, sans-serif;
     color: #efabab;
@@ -33,71 +124,13 @@ blockquote.blockquote {
     border-radius: 4px;
     font-size: 15px;
     font-family: 'Roboto', arial, sans-serif;
-} 
-.top {
-	background: url(images/banner.jpg);
-	background-size: cover;
-	height: 1000px;
-}
-.mtren{
-	background: transparent;
 }
 
 
 a.logo {
-	width: 370px;
 	font-family: 'Roboto Slab', serif;
 	font-size: 15px;
 	text-transform: uppercase;
-}
-
-a.logo img {
-	width: 20%;
-}
-.top .menuphai a.nav-link {
-	text-transform: uppercase;
-	padding:32px 23px;
-	font-size: 14px;
-	font-family: 'Roboto Slab', serif;  
-	color: white;
-	transition: 0.4s;
-}
-
-.top .menuphai li.active a.nav-link {
-	color:#f7817c;
-}
-.top .menuphai a.nav-link:hover{
-	color: #f7817c;
-
-}
-
-.banner h1 {
-
-color: #dad8d8;
-
-padding-top: 290px;
-}
-.banner p {
-
-color: #cecece;
-
-font-size: 20px;
-
-padding-top: 20px;
-
-padding-bottom: 30px;
-}
-.banner a {
-
-font-size: 20px;
-
-font-family: "roboto slab", serif;
-
-font-weight: 700;
-
-padding: 10px 40px;
-
-background: #ec6952;
 }
 
 .avatar {
@@ -114,6 +147,346 @@ background: #ec6952;
 	left: 100px;
 	top: 26px
   }
+
+/*-------XU LY CSS CHO PHAN CASE STUDIES-------*/
+
+.sanphamhome {
+	padding-top: 60px;
+}
+
+ul.tdtab{
+	text-align: center;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+ul.tdtab li b {
+	cursor: pointer;
+	font-weight: 500;
+	font-family: 'Roboto', arial, sans-serif;
+	text-transform: uppercase;
+	font-size: 15px;
+	color: #e07373;
+	padding: 3px 20px;
+	display: inline-block;
+	border-bottom: 2px solid transparent;
+	position: relative;
+	bottom: -2px;
+	transition: 0.2s;
+}
+
+ul.tdtab li b:hover, ul.tdtab li b.active {
+    border-bottom: 2px solid #e07373;
+}
+
+ul.tdtab li {
+	display: inline;
+}
+
+ul.ndtab{
+	position: relative;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+}
+
+.divsanpham	{
+	position: absolute;
+	transition: 0.5s;
+	opacity: 0;
+	visibility: hidden;
+	transform: translateY(200px);
+
+}
+
+.divsanpham.xuathien {
+	opacity: 1;
+	visibility: visible;
+	transform: translateY(0px);
+}
+
+.block_case {
+	    font-family: source-han-sans-japanese,"æ¸¸ã‚´ã‚·ãƒƒã‚¯ Medium",
+	    				"æ¸¸ã‚´ã‚·ãƒƒã‚¯ä½“",Yu Gothic Medium,YuGothic,
+	    				"ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ ProN",Hiragino Kaku Gothic ProN,
+	    				"ãƒ¡ã‚¤ãƒªã‚ª",Meiryo,"ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯",MS PGothic,sans-serif;
+    box-shadow: 0 20px 40px 0 rgba(10,10,10,.06);
+    background: #fff;
+    border-radius: 5px;
+    height: 100%;
+    margin: 30px 40px;
+}
+
+.block_case .heading-title {
+    line-height: 38px;
+    background: #dc9696;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 24px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 80px;
+    padding: 15px 0;
+    text-align: center;
+}
+.block_case .heading-title h3 {
+	font-size: 23px;
+	}
+
+.list-tab li {
+    min-width: 70px;
+    height: 26px;
+    margin-right: 7px;
+    border-radius: 2px;
+    font-size: 16px;
+    line-height: 26px;
+    background: #917d7f;
+    text-align: center;
+    color: #fff;
+    float: left;
+    margin-bottom: 7px;
+    padding: 0 3px;
+}
+
+.list-tab {
+    overflow: hidden;
+    margin-bottom: 6px;
+}
+
+
+.list-info li {
+    /* display: block; */
+    font-size: 18px;
+    line-height: 31px;
+    font-weight: 500;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+.block_case table {
+    width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 100%;
+}
+
+.block_case table th {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #917d7f;
+    width: 135px;
+    padding: 16px 0 22px;
+}
+
+.block_case table td {
+    font-size: 16px;
+    line-height: 22px;
+    padding: 16px 0 22px;
+}
+
+.block_case table tr {
+    border-top: 1px solid #dcdcdc;
+    padding: 0 2px;
+}
+
+.block_case_voice_info {
+    background: #efefef;
+    font-size: 18px;
+    line-height: 24px;
+    color: #00acc0;
+    font-weight: 700;
+    padding: 13px 18px;
+    min-height: 122px;
+    width: calc(100% - 113px);
+    position: relative;
+}
+
+.duoi{
+	height: 600px;
+	margin-bottom: 10px;
+}
+
+/*-------XU LY CSS CHO PHAN NEWS-------*/
+
+.tinhome {
+	position: relative;
+	background: #f3e7e7;
+	height: 750px; 
+	padding-bottom: 100px; 
+	box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+	z-index: 10;
+}
+
+.anhtin {
+	position: relative;
+	width: 100%;
+	height: 260px;
+	display: block;
+	overflow: hidden;
+	margin-top: 30px;
+}
+
+.anhtin:hover .ngaythang {
+    transition: 0.4s;
+    background: #c39393;
+    border-bottom: 5px solid #b76865;
+}
+
+.anhtin img{
+	height: 250px;
+	width: 500px;
+	border-radius: 2%;
+}
+.anhtin .ngaythang{
+	position: absolute;
+	z-index: 1;
+	top: 10px;
+	left: 10px;
+	background: #b76865;
+	padding: 10px;
+	color: white;
+	font-family:  'Roboto', arial, sans-serif;
+	text-align: center;
+	padding: 0px 7px;
+}
+.anhtin .ngaythang b{
+	display: block;
+	color: #fafafa;
+	font-size: 25px;
+	font-weight: 300;
+
+}
+.anhtin .ngaythang i{
+	font-size: 18px;
+	text-transform: uppercase;
+	font-style: normal;
+	display: block;
+	margin-top: -8px;
+}
+
+/*.ndtin {
+	border: 3px solid white;
+	margin:-37px 40px 0px 40px;
+	position: absolute;
+	padding: 76px 37px 37px 37px;
+
+}*/
+
+.ndtin a.td1tin{
+	color: #222;
+	text-transform: uppercase;
+	text-decoration: none;
+	line-height: 26px;
+	font-family:  'Roboto', arial, sans-serif;
+	margin-bottom: 8px;
+	display:block;
+}
+
+
+.ndtin p{
+	font-family:  'Roboto', arial, sans-serif;
+	font-size: 15px;
+	line-height: 26px;
+	color: #777;
+	margin-bottom: 20px;
+}
+
+
+.ndtin a.rm{
+	color: #222;
+	font-size: 13px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+a.rm i {
+    padding-left: 5px;
+    transition: 0.4s;
+}
+
+a.rm:hover i {
+    padding-left: 15px;
+}
+
+a.rm:hover {
+    color: #b76865;
+}
+
+/*XU LY CSS CHO PHAN FOOTER*/
+
+footer .foot {
+	background-color: #f2f2f2;
+	color: #917d7f;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+.copyright {
+	background-color: white;
+	padding-top: 20px;
+	padding-bottom: 5px; 
+}
+
+footer ul {
+
+	list-style: none;
+	padding: 0;
+	margin:0;
+
+}
+
+footer ul li {
+	display: inline;
+}
+
+footer .cot1 i {
+    color: inherit;
+    margin-right: 10px;
+}
+
+.footer_info {
+    max-width: 100%;
+    font-size: smaller;
+    padding-bottom: 20px;
+    border-bottom: 4px double #c3bebe;
+}
+
+.mangxh .fab{
+	color: #917d7f;	
+}
+
+.mangxh .fa-facebook-f:hover{
+	color: #4c66a4;
+}
+.mangxh .fa-twitter:hover{
+	color: #6faedc;
+}
+.mangxh .fa-youtube:hover{
+	color: #ff0000;
+}
+
+.mangxh {
+   padding-top: 20px;
+}
+
+/*XU LY CSS CHO PHAN SLIDE CMT*/
 
 .carousel-indicators li {
 	background: gray;
@@ -143,11 +516,49 @@ background: #ec6952;
 .buttonup:hover{
 	color: #f3e7e7;
 }
+.slide {
+    height: 415px;
+    background: whitesmoke;
+}
 
-@media (max-width:576px){
+div#slidecmt {
+    height: 290px;
+}
+
+
+
+
+
+/*------------------------------------XU LY CHO SMARTPHONE------------------------------------*/
+
+@media (max-width:768px){
 	* {
 		
 	}
+
+.s3 h3 {
+    font-size: 22px;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+
+/*XU LY CSS CHO MENUTOP 576*/
+.menutop .navbar-light .navbar-nav li >.nav-link {
+    display: block;
+    padding: 5px;
+    border-right: 0px;
+    border-bottom: 1px solid #f3eded;
+}
+
+/*XU LY CSS CHO BANNER 576*/
+.banner h1{
+		font-size:30px;
+		padding-top:30px;
+	}
+
 
 blockquote.blockquote {
     width: 76%;
@@ -159,27 +570,79 @@ blockquote.blockquote {
 .avatar {
     width: 70px;
 }
-	a.logo {
-		width:200px;
-		height:60px;
-		top: -60px;
-		margin-left:90px;
-		font-size: 15px
-	}
-	.menuphai {
-		background:#253340;
-		width:100%;
-		padding:15px;
-	}
-	.top .menuphai a.nav-link{
-		padding:10px;
-		
-	}
-	.banner h1{
-		font-size:30px;
-		padding-top:100px;
-	}
-	.top {
-		height:500px;
-	}
+
+
+/*XU LY CHO KHOI PRODUCT*/
+
+.list-tab li {
+    font-size: 13px;
+    line-height: 22px;
+    height: 22px;
+    min-width: 60px;
+    margin: 0 3px 6px!important;
 }
+
+.list-info li {
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.block_case .heading-title {
+    font-size: 14px;
+    line-height: 24px;
+    min-height: 0;
+    padding: 16px 0;
+    margin-bottom: 18px;
+    height: auto;
+}
+
+.block_case_info {
+    padding: 0 23px 23px;
+}
+
+.block_case table th {
+    font-size: 16px;
+    line-height: 23px;
+    padding-top: 9px;
+    display: block;
+    padding-bottom: 7px;
+    width: 100%;
+}
+.block_case table td {
+    display: block;
+    font-size: 14px;
+    line-height: 18px;
+    padding-top: 0;
+    padding-bottom: 13px;
+    width: 100%;
+}
+
+.sp-hidden {
+    display: none!important;
+}
+
+.block_case .heading-title h3 {
+    font-size: 16px;
+}
+
+.duoi{
+	height: 1000px;
+	margin-bottom: 10px;
+}
+
+/*XU LY CSS CHO NEWS*/
+
+.tinhome {
+    height: 1500px;
+}
+
+/*XU LY CSS CHO FOOTER*/
+.copyright {
+    font-size: 12px;
+}
+
+.foot h3 {
+    font-size: 21px;
+}
+
+}	
