@@ -1,4 +1,6 @@
  $(function(){
+ 	//hieu ung cuon chuot
+ 	new WOW().init();
  	// jquery cho phan hieu ung
  	$('ul.tdtab li b').click(function() {
  		/* Act on the event */
@@ -30,7 +32,6 @@
  		/* Act on the event */
  		$('body,html').animate({scrollTop:AddNews},700);
  	});
- 	//hieu ung cuon chuot
- 	new WOW().init();
+
 })  
  

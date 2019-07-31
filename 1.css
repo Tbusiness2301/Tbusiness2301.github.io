@@ -1,5 +1,502 @@
 *{margin: 0; padding: 0;}
 
+
+
+
+.feature-quality {
+    padding: 75px 0 67px;
+}
+
+.feature-quality__title {
+    text-align: center;
+    font-size: 34px;
+    line-height: 1.41176471;
+    margin-bottom: 28px;
+    font-family: "Lucida Grande","Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+.feature-quality__copy {
+    text-align: center;
+    font-size: 16px;
+    line-height: 2;
+    margin-bottom: 56px;
+}
+
+.feature-quality__list {
+    max-width: 867px;
+    width: 100%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 45px;
+}
+
+
+.feature-quality__list li {
+    width: 25.3748558%;
+    text-align: center;
+    position: relative;
+    background: #f8f8f8;
+}
+
+.feature-quality__list__content {
+    padding: 56px 15px 27px;
+}
+
+
+.feature-quality__list li .item-icon {
+    margin-bottom: 16px;
+    width: 66px;
+    height: 69px;
+    display: inline-block;
+}
+
+.feature-quality__list li .item-text {
+    font-size: 20px;
+    line-height: 1.3;
+    color: #f7817c;
+    display: table;
+    width: 100%;
+    font-weight: 700;
+    text-align: center;
+    font-family: "Lucida Grande","Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    padding-top: 23px;
+}
+
+.feature-quality__list li.js-fadein:after {
+    content: '';
+    width: 38px;
+    height: 38px;
+    background: url(images/icon_plus.png) no-repeat center center/contain;
+    position: absolute;
+    top: 50%;
+    right: -33%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+
+/*-----------------------------------------------------------------------------------------------*/
+.service-work__list img {
+    width: 70px;
+}
+
+
+.service-work {
+    position: relative;
+    padding: 0 0 150px;
+}
+
+
+.service-work__list {
+    margin-bottom: 70px;
+}
+
+
+.service-laboratory {
+    padding: 74px 0 69px;
+}
+
+.top-offshore .inner.js-fadein {
+       padding-top: 71px;
+}
+
+.service-work__list dl {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 30px 0;
+    border-top: 1px solid #c8c8c8;
+    font-family: "Lucida Grande","Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+
+
+.service-work__bottom .bottom-text {
+    font-size: 30px;
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: 47px;
+    font-family: "Lucida Grande","Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+
+.service-work__list dl dt span {
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 10px;
+    font-family: "Lucida Grande","Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+
+.service-work__list dl dt {
+    width: 24.5%;
+    text-align: center;
+    padding: 0 10px;
+    font-family: "Lucida Grande","Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+
+.service-option__list {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.service-option {
+    position: relative;
+    padding: 111px 0 125px;
+}
+
+
+.service-option__item a {
+    display: block;
+    padding: 45px 20px 48px;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+}
+
+.service-option__item {
+    width: 48.3673469%;
+    background: #fff;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 20px 40px 0 rgba(10,10,10,.06);
+    border-radius: 7px;
+    padding: 30px 20px;
+    font-family: "Lucida Grande","Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+.service-option__item .item-icon {
+    margin-bottom: 12px;
+    width: 56px;
+    height: 57px;
+    display: inline-block;
+}
+
+.service-option__item a:hover {
+    opacity: .6;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+}
+
+.service-option__item .item-title {
+    font-size: 24px;
+    line-height: 1.6;
+    margin-bottom: 5px;
+}
+
+.service-option__item .item-en {
+    font-family: din-2014,sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #f7817c;
+    margin-bottom: 23px;
+}
+
+
+.service-option__item .item-text {
+    font-size: 16px;
+    line-height: 1.5625;
+}
+/*------------------------------------------------------------------------------------*/
+.service-work__list {
+    margin-bottom: 70px;
+}
+
+.service-laboratory__title {
+    text-align: center;
+    font-size: 29px;
+    line-height: 1.48275862;
+    margin-bottom: 28px;
+    font-family: "Lucida Grande","Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+.service-laboratory__copy {
+    max-width: 755px;
+    width: 100%;
+    margin: 0 auto 43px;
+    font-size: 16px;
+    line-height: 2;
+    text-align: justify;
+    font-family: "Lucida Grande","Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    text-align: center;
+}
+
+.service-work {
+    position: relative;
+    padding: 0 0 150px;
+}
+
+/*--------------------------------------------------------------------------------------------*/
+.top-reason {
+    position: relative;
+    z-index: 3;
+    padding: 125px 0 193px;
+}
+
+.top-reason:before {
+    content: '';
+    width: 50%;
+    height: 100%;
+    background: url(images/bg_01.png);
+    position: absolute;
+    top: -1.7vw;
+    z-index: -2;
+    right: 0;
+    -webkit-transform: skewY(-3.7deg);
+    transform: skewY(-3.7deg);
+}
+
+
+.top-reason:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    -webkit-transform: skewY(3.7deg);
+    transform: skewY(3.7deg);
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background: #f3e7e7!important;
+}
+
+
+.inner {
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    position: relative;
+ 
+}
+
+
+.top-reason__title {
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.6;
+    color: #f7817c;
+    margin-bottom: 60px;
+    margin-left: 40px;
+    font-family: "Lucida Grande","Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+.top-reason__list {
+    margin-bottom: 63px;
+}
+
+.top-reason__item {
+    background: #fff;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 9px;
+}
+
+
+.top-reason__item .item-image {
+    width: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.top-reason__item .item-image img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    display: block;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    max-height: none;
+    max-width: none;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.top-reason__item .item-content {
+    width: 50%;
+    padding: 59px 30px 68px 50px;
+}
+
+.top-reason__item .item-content .number {
+    font-size: 16px;
+    color: #fff;
+    display: inline-block;
+    background: #8d7e81;
+    padding: 5px 11px;
+    margin-bottom: 24px;
+    font-family: "Lucida Grande","Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+.top-reason__item .item-content .title {
+    font-size: 26px;
+    line-height: 1.2;
+    margin-bottom: 22px;
+    font-weight: 400;
+    font-family: "Lucida Grande","Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+.top-reason__item .item-content .text {
+    font-size: 14px;
+    line-height: 1.71428571;
+    font-family: "Lucida Grande","Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+.top-reason:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    -webkit-transform: skewY(3.7deg);
+    transform: skewY(3.7deg);
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background: #7db828;
+}
+
+
+.top-offshore:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: -webkit-linear-gradient(right,#f5f5f5 50%,#f5f5f5 50%);
+    background: linear-gradient(to left,#f5f5f5 50%,#f5f5f5 50%);
+    -webkit-transform: skewY(-3.2deg);
+    transform: skewY(-3.2deg);
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.top-offshore:after {
+    content: '';
+    width: 50%;
+    height: 100%;
+    background: url(images/bg_01.png);
+    position: absolute;
+    top: -1.4vw;
+    z-index: -2;
+    left: 0;
+    -webkit-transform: skewY(3.3deg);
+    transform: skewY(3.3deg);
+}
+
+section.top-offshore {
+    position: relative;
+    width: 100%;
+    height: auto;
+    /* margin-top: 61px; */
+    top: 45px;
+}
+
+/*---------------------------------------------------------------------------------------
+*/
+
+
+.company_heading h3 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 41px;
+    text-align: justify;
+    padding-top: 52px;
+    color: #908083;
+}
+
+.company_heading p {
+    text-align: justify;
+    font-size: 18px;
+    line-height: 36px;
+    color: #908083;
+    font-family: "Lucida Grande","Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    font-weight: 400;
+}
+
+.company_heading {
+    padding: 70px 0px;
+    font-family: source-han-sans-japanese,"ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¸ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¸ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â´ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â·ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¯ Medium","ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¸ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¸ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â´ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â·ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¤ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â½ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â‚¬Å“",Yu Gothic Medium,YuGothic,"ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â®ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â½ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¨ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â´ ProN",Hiragino Kaku Gothic ProN,"ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¤ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂªÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Âª",Meiryo,"ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¼ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â­ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¼ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â³ ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¼ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â°ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â´ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â·ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¯",MS PGothic,sans-serif;
+}
+
+.company_heading img {
+    border-radius: 2%;
+}
+
+
+.company-list {
+    background: #f8f8f8;
+    padding: 72px 0 68px;
+    font-family: source-han-sans-japanese,"ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¸ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¸ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â´ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â·ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¯ Medium","ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¸ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¸ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â´ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â·ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¤ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â½ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â‚¬Å“",Yu Gothic Medium,YuGothic,"ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â®ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â½ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¨ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â´ ProN",Hiragino Kaku Gothic ProN,"ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¤ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂªÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Âª",Meiryo,"ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¼ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â­ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¼ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â³ ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¼ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â°ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â´ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â·ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¯",MS PGothic,sans-serif;
+}
+
+
+.company-list__title {
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.6;
+    margin-bottom: 28px;
+}
+
+.company-list__item {
+    margin-bottom: 45px;
+}
+
+.company-list__item dl {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    background: #fff;
+    font-size: 16px;
+    line-height: 1.33333333;
+    border-bottom: 1px solid #e2d3d5;
+    margin-bottom: 2px;
+}
+
+.company-list__item .item-title {
+    font-size: 24px;
+    margin-bottom: 19px;
+}
+
+.company-list__item dt {
+    width: 207px;
+    background: #928285;
+    color: #fff;
+    padding: 18px 39px;
+}
+
+.company-list__item dd {
+    width: calc(100% - 207px);
+    color: #000;
+    padding: 18px 39px;
+}
+
+dd {
+    margin-bottom: .5rem;
+    margin-left: 0;
+}
+
 /*-------CSS CHO MENU TOP-------*/
 .menutop a.navbar-brand {
     display: block;
@@ -9,15 +506,22 @@
     margin: unset;
 }
 
+a.navbar-brand.logo {
+    font-size: 20px;
+    font-family: "Lucida Grande","Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    color: #928285;
+    padding: 15px;
+}
+
 .menutop ul.nav.navbar-nav {
-	text-align: center;
-	display: block;
-	padding-bottom: 10px;
+    text-align: center;
+    display: block;
+    padding-bottom: 10px;
 }
 
 .menutop .navbar-nav .nav-item {
-	float:none;
-	display: inline;
+    float:none;
+    display: inline;
 }
 
 .menutop .navbar-light .navbar-nav li >.nav-link{
@@ -28,67 +532,73 @@
 }
 
 .menutop .menuphai a.nav-link {
-	text-transform: uppercase;
-	padding:32px 23px;
-	font-size: 14px;
-	font-family: 'Roboto Slab', serif;  
-	/*color: white;*/
-	transition: 0.3s;
+    text-transform: uppercase;
+    padding:32px 23px;
+    font-size: 14px;
+    font-family: "Lucida Grande","Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    font-weight: 700;  
+    /*color: white;*/
+    transition: 0.3s;
 }
 
 .menutop .menuphai li.active a.nav-link {
-	color:#f7817c;
+    color:#f7817c;
 }
 .menutop .menuphai a.nav-link:hover{
-	color: #f7817c;
-	font-size: 16px;
+    color: #f7817c;
+    font-size: 16px;
 }
 
-/*-------HET XU LY CSS CHO MENUTOP-------*/
+/*-------HET XU LY CSS CHO MENUTOP--------*/
 
 
 /*--------------XU LY CSS CHO SLIDE-------*/
 
 /*.slide1 {
-	position: relative;
-	background: white;
+    position: relative;
+    background: white;
 }
 
 .slide1 .container {
-	position: absolute;
-	top:30%;
+    position: absolute;
+    top:30%;
 }*/
 
-/*-------XU LY CSS CHO BANNER-------*/
+/*-------XU LY CSS CHO BANNER-------------*/
+
+.banner h1 {
+    font-size: 31px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-family: "Lucida Grande","Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    line-height: 50px;
+}
+
 
 .banner img {
-	position: relative;
+    position: relative;
 }
 
 .banner {
-	font-family: 'Roboto', arial, sans-serif;
-	color:#917d7f;
-	font-weight: bold;
+    font-family: 'Roboto', arial, sans-serif;
+    color:#917d7f;
+    font-weight: bold;
 }
 
 .banner a {
-	font-size: 20px;
-	font-family: "roboto slab", serif;
-	font-weight: 700;
-	padding: 10px 40px;
-	background: #ec6952;
+    font-size: 20px;
+    font-family: "roboto slab", serif;
+    font-weight: 700;
+    padding: 10px 40px;
+    background: #ec6952;
 }
 
-/*-------HET XU LY CSS CHO BANNER-------*/
+/*-------HET XU LY CSS CHO BANNER---------*/
 
 /*-------XU LY CSS CHO PHAN SERVICE-------*/
 
-.col-sm-1.line {
-    height: 3px;
-    background: red;
-    position: relative;
-    top: 22px;
-}
+
 
 h2 {
     font-size: 40px;
@@ -101,17 +611,17 @@ h2 {
     padding-top: 60px;
 }
 
-p {
-    font-family: 'Roboto', arial, sans-serif;
+.banner p {
+    font-family: "Lucida Grande","Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
     color: #756c6c;
 }
 
 .s3 h3 {
-	display: inline-block;
-	padding: 0.3em 0.5em;
-	text-decoration: none;
-	border-left: solid 6px #f7817c;
-	border-bottom: solid 1px #efabab;
+    display: inline-block;
+    padding: 0.3em 0.5em;
+    text-decoration: none;
+    border-left: solid 6px #f7817c;
+    border-bottom: solid 1px #efabab;
     font-weight: bold;
     font-size: 30px;
     font-family: 'Roboto', arial, sans-serif;
@@ -128,50 +638,50 @@ blockquote.blockquote {
 
 
 a.logo {
-	font-family: 'Roboto Slab', serif;
-	font-size: 15px;
-	text-transform: uppercase;
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    text-transform: uppercase;
 }
 
 .avatar {
-	border-radius: 50%;
+    border-radius: 50%;
 }
 
 .tamgiac {
-	width:0px;
-	height:0px;
-	border-bottom: 10px solid transparent;
-	border-top: 10px solid transparent;
-	border-right: 10px solid #efabab;
-	position: absolute;
-	left: 100px;
-	top: 26px
+    width:0px;
+    height:0px;
+    border-bottom: 10px solid transparent;
+    border-top: 10px solid transparent;
+    border-right: 10px solid #efabab;
+    position: absolute;
+    left: 100px;
+    top: 26px
   }
 
 /*-------XU LY CSS CHO PHAN CASE STUDIES-------*/
 
 .sanphamhome {
-	padding-top: 60px;
+    padding-top: 60px;
 }
 
 ul.tdtab{
-	text-align: center;
-	border-bottom: 1px solid #e5e5e5;
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
 }
 
 ul.tdtab li b {
-	cursor: pointer;
-	font-weight: 500;
-	font-family: 'Roboto', arial, sans-serif;
-	text-transform: uppercase;
-	font-size: 15px;
-	color: #e07373;
-	padding: 3px 20px;
-	display: inline-block;
-	border-bottom: 2px solid transparent;
-	position: relative;
-	bottom: -2px;
-	transition: 0.2s;
+    cursor: pointer;
+    font-weight: 500;
+    font-family: 'Roboto', arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #e07373;
+    padding: 3px 20px;
+    display: inline-block;
+    border-bottom: 2px solid transparent;
+    position: relative;
+    bottom: -2px;
+    transition: 0.2s;
 }
 
 ul.tdtab li b:hover, ul.tdtab li b.active {
@@ -179,37 +689,37 @@ ul.tdtab li b:hover, ul.tdtab li b.active {
 }
 
 ul.tdtab li {
-	display: inline;
+    display: inline;
 }
 
 ul.ndtab{
-	position: relative;
-	list-style: none;
-	margin: 0;
-	padding: 0;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 
 }
 
-.divsanpham	{
-	position: absolute;
-	transition: 0.5s;
-	opacity: 0;
-	visibility: hidden;
-	transform: translateY(200px);
+.divsanpham {
+    position: absolute;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(200px);
 
 }
 
 .divsanpham.xuathien {
-	opacity: 1;
-	visibility: visible;
-	transform: translateY(0px);
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
 }
 
 .block_case {
-	    font-family: source-han-sans-japanese,"æ¸¸ã‚´ã‚·ãƒƒã‚¯ Medium",
-	    				"æ¸¸ã‚´ã‚·ãƒƒã‚¯ä½“",Yu Gothic Medium,YuGothic,
-	    				"ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ ProN",Hiragino Kaku Gothic ProN,
-	    				"ãƒ¡ã‚¤ãƒªã‚ª",Meiryo,"ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯",MS PGothic,sans-serif;
+        font-family: source-han-sans-japanese,
+                    Yu Gothic Medium,YuGothic,
+                    Hiragino Kaku Gothic ProN,
+                    Meiryo,MS PGothic,sans-serif;
     box-shadow: 0 20px 40px 0 rgba(10,10,10,.06);
     background: #fff;
     border-radius: 5px;
@@ -242,8 +752,8 @@ ul.ndtab{
     text-align: center;
 }
 .block_case .heading-title h3 {
-	font-size: 23px;
-	}
+    font-size: 23px;
+    }
 
 .list-tab li {
     min-width: 70px;
@@ -320,28 +830,29 @@ table {
 }
 
 .duoi{
-	height: 600px;
-	margin-bottom: 10px;
+    height: 600px;
+    margin-bottom: 10px;
 }
 
 /*-------XU LY CSS CHO PHAN NEWS-------*/
 
 .tinhome {
-	position: relative;
-	background: #f3e7e7;
-	height: 750px; 
-	padding-bottom: 100px; 
-	box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
-	z-index: 10;
+    margin-top: -64px;
+    position: relative;
+    background: #ffffff;
+    height: 750px;
+    padding-bottom: 100px;
+    box-shadow: 0 0px 11px rgba(0, 0, 0, 0.1);
+    z-index: 10;
 }
 
 .anhtin {
-	position: relative;
-	width: 100%;
-	height: 260px;
-	display: block;
-	overflow: hidden;
-	margin-top: 30px;
+    position: relative;
+    width: 100%;
+    height: 260px;
+    display: block;
+    overflow: hidden;
+    margin-top: 30px;
 }
 
 .anhtin:hover .ngaythang {
@@ -351,70 +862,70 @@ table {
 }
 
 .anhtin img{
-	height: 250px;
-	width: 500px;
-	border-radius: 2%;
+    height: 250px;
+    width: 500px;
+    border-radius: 2%;
 }
 .anhtin .ngaythang{
-	position: absolute;
-	z-index: 1;
-	top: 10px;
-	left: 10px;
-	background: #b76865;
-	padding: 10px;
-	color: white;
-	font-family:  'Roboto', arial, sans-serif;
-	text-align: center;
-	padding: 0px 7px;
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    left: 10px;
+    background: #b76865;
+    padding: 10px;
+    color: white;
+    font-family:  'Roboto', arial, sans-serif;
+    text-align: center;
+    padding: 0px 7px;
 }
 .anhtin .ngaythang b{
-	display: block;
-	color: #fafafa;
-	font-size: 25px;
-	font-weight: 300;
+    display: block;
+    color: #fafafa;
+    font-size: 25px;
+    font-weight: 300;
 
 }
 .anhtin .ngaythang i{
-	font-size: 18px;
-	text-transform: uppercase;
-	font-style: normal;
-	display: block;
-	margin-top: -8px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-style: normal;
+    display: block;
+    margin-top: -8px;
 }
 
 /*.ndtin {
-	border: 3px solid white;
-	margin:-37px 40px 0px 40px;
-	position: absolute;
-	padding: 76px 37px 37px 37px;
+    border: 3px solid white;
+    margin:-37px 40px 0px 40px;
+    position: absolute;
+    padding: 76px 37px 37px 37px;
 
 }*/
 
 .ndtin a.td1tin{
-	color: #222;
-	text-transform: uppercase;
-	text-decoration: none;
-	line-height: 26px;
-	font-family:  'Roboto', arial, sans-serif;
-	margin-bottom: 8px;
-	display:block;
+    color: #222;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 26px;
+    font-family:  'Roboto', arial, sans-serif;
+    margin-bottom: 8px;
+    display:block;
 }
 
 
 .ndtin p{
-	font-family:  'Roboto', arial, sans-serif;
-	font-size: 15px;
-	line-height: 26px;
-	color: #777;
-	margin-bottom: 20px;
+    font-family:  'Roboto', arial, sans-serif;
+    font-size: 15px;
+    line-height: 26px;
+    color: #777;
+    margin-bottom: 20px;
 }
 
 
 .ndtin a.rm{
-	color: #222;
-	font-size: 13px;
-	text-transform: uppercase;
-	text-decoration: none;
+    color: #222;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
 a.rm i {
@@ -433,27 +944,34 @@ a.rm:hover {
 /*XU LY CSS CHO PHAN FOOTER*/
 
 footer .foot {
-	background-color: #f2f2f2;
-	color: #917d7f;
-	padding-top: 50px;
-	padding-bottom: 20px;
+    background-color: #f2f2f2;
+    color: #917d7f;
+    padding-top: 50px;
+    padding-bottom: 20px;
 }
 .copyright {
-	background-color: white;
-	padding-top: 20px;
-	padding-bottom: 5px; 
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 5px; 
+}
+
+.copyright p {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    color: #756c6c;
+    font-size: smaller;
+
 }
 
 footer ul {
 
-	list-style: none;
-	padding: 0;
-	margin:0;
+    list-style: none;
+    padding: 0;
+    margin:0;
 
 }
 
 footer ul li {
-	display: inline;
+    display: inline;
 }
 
 footer .cot1 i {
@@ -469,17 +987,17 @@ footer .cot1 i {
 }
 
 .mangxh .fab{
-	color: #917d7f;	
+    color: #917d7f; 
 }
 
 .mangxh .fa-facebook-f:hover{
-	color: #4c66a4;
+    color: #4c66a4;
 }
 .mangxh .fa-twitter:hover{
-	color: #6faedc;
+    color: #6faedc;
 }
 .mangxh .fa-youtube:hover{
-	color: #ff0000;
+    color: #ff0000;
 }
 
 .mangxh {
@@ -489,32 +1007,32 @@ footer .cot1 i {
 /*XU LY CSS CHO PHAN SLIDE CMT*/
 
 .carousel-indicators li {
-	background: gray;
+    background: gray;
 }
 
 .carousel-indicators li.active {
-	background: #ec6952;
+    background: #ec6952;
 }
 
 .carousel-indicators {
-	bottom: -50px;
+    bottom: -50px;
 }
 
 .logo{
-	transition: 0.5s;
+    transition: 0.5s;
 }
 
 .logo.chucam {
-	background: white;
+    background: white;
 }
 
 .buttonup{
-	color: #efabab;
-	transition: 0.3s;
+    color: #efabab;
+    transition: 0.3s;
 }
 
 .buttonup:hover{
-	color: #f3e7e7;
+    color: #f3e7e7;
 }
 .slide {
     height: 415px;
@@ -525,16 +1043,88 @@ div#slidecmt {
     height: 290px;
 }
 
+/*XU LY CSS CHO ABOUTUS*/
+
+.aboutus table tr td {
+    border: 1px solid #978086;
+}
+
+.aboutus table td {
+    padding:10px 10px; 
+}
+
+.aboutbn {
+    height: 526px;
+}
+
+.child-visual {
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+    background-color: transparent;
+    background-position: 50% 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.add-bg .child-visual__title {
+    font-size: 34px;
+    color: #fff;
+    font-family:  "Lucida Grande","Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
 
 
+.child-visual .inner {
+    color: #fff;
+    font-weight: 700;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    text-align: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.child-visual__title span {
+    font-family: din-2014,sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+}
 
 
 /*------------------------------------XU LY CHO SMARTPHONE------------------------------------*/
 
 @media (max-width:768px){
-	* {
-		
-	}
+    * {
+        
+    }
+
+section.top-reason {
+    padding-top: 60px;
+}
+
+.banner p {
+    font-size: 13px;
+}
+
 
 .s3 h3 {
     font-size: 22px;
@@ -555,9 +1145,10 @@ h2 {
 
 /*XU LY CSS CHO BANNER 576*/
 .banner h1{
-		font-size:30px;
-		padding-top:30px;
-	}
+        font-size: 15px;
+        padding-top: 14px;
+        padding-bottom: 0px;
+    }
 
 
 blockquote.blockquote {
@@ -626,8 +1217,8 @@ blockquote.blockquote {
 }
 
 .duoi{
-	height: 1000px;
-	margin-bottom: 10px;
+    height: 1000px;
+    margin-bottom: 10px;
 }
 
 /*XU LY CSS CHO NEWS*/
@@ -645,4 +1236,251 @@ blockquote.blockquote {
     font-size: 21px;
 }
 
-}	
+/*XU LY CSS CHO ABOUTUS*/
+
+.aboutbn h3 {
+    top: -46px;
+    font-size: 11px;
+    position: relative;
+}
+
+
+.company-list__item dd {
+    width: 100%;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 7px 9px;
+}
+/*---------------------------------------------------------------------------------*/
+
+.top-reason__title {
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0 0 22px;
+}
+
+.top-reason__list {
+    margin-bottom: 0;
+}
+
+.top-reason__item {
+    display: block;
+    margin-bottom: 23px;
+}
+
+.top-reason__item .item-image {
+    width: 100%;
+}
+
+.top-reason__item .item-image img {
+    position: relative;
+    top: 0!important;
+    left: 0!important;
+    width: 100%;
+}
+
+.top-reason__item .item-content {
+    width: 100%;
+    padding: 14px 15px 33px;
+}
+
+.top-reason__item .item-content .number {
+    font-size: 12px;
+    padding: 4px 8px;
+    margin-bottom: 15px;
+}
+
+.top-reason__item .item-content .title {
+    font-size: 12px;
+    line-height: 26px;
+    margin-bottom: 12px;
+}
+
+.top-reason__item .item-content .text {
+    font-size: 10px;
+    line-height: 18px;
+}
+
+
+---------------------------------------------------------------------------------------------------
+.service-laboratory {
+    padding-top: 26px;
+    padding-bottom: 74px;
+}
+
+.inner {
+    margin: 0;
+    padding: 0 15px;
+}
+
+.service-laboratory__title {
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.service-laboratory__copy {
+    font-size: 10px;
+    line-height: 19px;
+    margin-bottom: 27px;
+    text-align: left!important;
+}
+
+.service-work {
+    padding-bottom: 70px;
+}
+
+.service-work__list {
+    margin-bottom: 30px;
+}
+
+.service-work__list dl {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 25px 0 28px;
+}
+
+.service-work__list dl dt {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.service-work__list img {
+    width: 70px;
+}
+
+.service-work__list dl dt span {
+    font-size: 12px;
+    line-height: 19px;
+    padding-top: 8px;
+}
+
+.service-work__list dl dd {
+    width: 100%;
+    padding: 0;
+    font-size: 10px;
+    line-height: 18px;
+}
+
+.service-work__bottom .bottom-text {
+    font-size: 12px;
+    line-height: 27px;
+    margin-bottom: 0;
+}
+
+
+/*----------------------------------------------------------------------------------------*/
+.service-option__list {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.service-option__item a {
+    padding: 36px 30px 32px;
+}
+
+.service-option__item .item-icon {
+    width: auto;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+.service-option__item .item-icon img {
+    height: 46px;
+    width: auto;
+}
+
+.service-option__item .item-title {
+    font-size: 10px;
+}
+
+.service-option__item .item-en {
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.service-option__item .item-text {
+    font-size: 9px;
+    line-height: 20px;
+}
+
+--------------------------------------------------------------------------
+.feature-quality {
+    padding-top: 24px;
+    padding-bottom: 44px;
+}
+
+.feature-quality__title {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 17px;
+}
+
+
+.feature-quality__copy {
+    font-size: 14px;
+    line-height: 18px;
+    text-align: left;
+    margin-bottom: 28px;
+}
+
+.feature-quality__list {
+    margin-bottom: 0;
+}
+
+.feature-quality__list li {
+    margin-bottom: 28px;
+    width: 100%;
+    background: transparent;
+}
+
+
+.feature-quality__list__content {
+    width: 260px;
+    padding: 16px 12px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #f8f8f8;
+    height: 92px;
+}
+
+.feature-quality__list li .item-icon {
+    width: 84px;
+    height: auto;
+    margin-bottom: 0;
+}
+
+.feature-quality__list li .item-icon img {
+    width: 48px;
+}
+
+.feature-quality__list li .item-text {
+    width: calc(100% - 84px);
+    font-size: 12px;
+    line-height: 17px;
+    text-align: left;
+}
+
+
+.feature-quality__list li.js-fadein:after {
+    width: 17px;
+    height: 17px;
+    top: 100%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    right: 0;
+    left: 50%;
+    margin-top: 6px;
+}
+
+
+}   
