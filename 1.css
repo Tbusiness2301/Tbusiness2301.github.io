@@ -1,5 +1,13 @@
 *{margin: 0; padding: 0;}
 
+div#InfoServices {
+    padding-top: 80px;
+}
+
+\ {
+    background: white;
+}
+
 
 
 
@@ -12,7 +20,7 @@
     font-size: 34px;
     line-height: 1.41176471;
     margin-bottom: 28px;
-    font-family: "Lucida Grande","Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    font-family: 'Sawarabi Mincho', sans-serif;
 }
 
 .feature-quality__copy {
@@ -55,8 +63,8 @@
 
 .feature-quality__list li .item-icon {
     margin-bottom: 16px;
-    width: 66px;
-    height: 69px;
+    width: 100px;
+    height: 70px;
     display: inline-block;
 }
 
@@ -68,7 +76,7 @@
     width: 100%;
     font-weight: 700;
     text-align: center;
-    font-family: "Lucida Grande","Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    font-family: 'Sawarabi Mincho', sans-serif;
     padding-top: 23px;
 }
 
@@ -117,7 +125,7 @@
     display: flex;
     padding: 30px 0;
     border-top: 1px solid #c8c8c8;
-    font-family: "Lucida Grande","Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    font-family: 'Sawarabi Mincho', sans-serif;
 }
 
 
@@ -127,7 +135,7 @@
     line-height: 1.6;
     text-align: center;
     margin-bottom: 47px;
-    font-family: "Lucida Grande","Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    font-family: 'Sawarabi Mincho', sans-serif;
 }
 
 
@@ -136,7 +144,7 @@
     font-size: 16px;
     font-weight: 700;
     padding-top: 10px;
-    font-family: "Lucida Grande","Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    font-family: 'Sawarabi Mincho', sans-serif;
 }
 
 
@@ -144,7 +152,7 @@
     width: 24.5%;
     text-align: center;
     padding: 0 10px;
-    font-family: "Lucida Grande","Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    font-family: 'Sawarabi Mincho', sans-serif;
 }
 
 
@@ -180,7 +188,7 @@
     box-shadow: 0 20px 40px 0 rgba(10,10,10,.06);
     border-radius: 7px;
     padding: 30px 20px;
-    font-family: "Lucida Grande","Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    font-family: 'Sawarabi Mincho', sans-serif;
 }
 
 .service-option__item .item-icon {
@@ -224,7 +232,7 @@
     font-size: 29px;
     line-height: 1.48275862;
     margin-bottom: 28px;
-    font-family: "Lucida Grande","Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    font-family: 'Sawarabi Mincho', sans-serif;
 }
 
 .service-laboratory__copy {
@@ -234,7 +242,7 @@
     font-size: 16px;
     line-height: 2;
     text-align: justify;
-    font-family: "Lucida Grande","Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    font-family: 'Sawarabi Mincho', sans-serif;
     text-align: center;
 }
 
@@ -294,7 +302,7 @@
     color: #f7817c;
     margin-bottom: 60px;
     margin-left: 40px;
-    font-family: "Lucida Grande","Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    font-family: 'Sawarabi Mincho', sans-serif;
 }
 
 .top-reason__list {
@@ -346,7 +354,7 @@
     background: #8d7e81;
     padding: 5px 11px;
     margin-bottom: 24px;
-    font-family: "Lucida Grande","Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    font-family: 'Sawarabi Mincho', sans-serif;
 }
 
 .top-reason__item .item-content .title {
@@ -354,13 +362,13 @@
     line-height: 1.2;
     margin-bottom: 22px;
     font-weight: 400;
-    font-family: "Lucida Grande","Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    font-family: 'Sawarabi Mincho', sans-serif;
 }
 
 .top-reason__item .item-content .text {
     font-size: 14px;
     line-height: 1.71428571;
-    font-family: "Lucida Grande","Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    font-family: 'Sawarabi Mincho', sans-serif;
 }
 
 .top-reason:after {
@@ -417,37 +425,40 @@ section.top-offshore {
 
 
 .company_heading h3 {
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 700;
     line-height: 41px;
     text-align: justify;
-    padding-top: 52px;
+    padding-top: 23px;
     color: #908083;
 }
 
 .company_heading p {
     text-align: justify;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 36px;
     color: #908083;
-    font-family: "Lucida Grande","Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    font-family: 'Sawarabi Mincho', sans-serif;
     font-weight: 400;
 }
 
 .company_heading {
-    padding: 70px 0px;
-    font-family: source-han-sans-japanese,"ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¸ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¸ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â´ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â·ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¯ Medium","ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¸ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¸ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â´ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â·ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¤ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â½ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â‚¬Å“",Yu Gothic Medium,YuGothic,"ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â®ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â½ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¨ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â´ ProN",Hiragino Kaku Gothic ProN,"ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¤ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂªÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Âª",Meiryo,"ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¼ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â­ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¼ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â³ ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¼ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â°ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â´ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â·ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¯",MS PGothic,sans-serif;
+    padding-top: 160px;
+    padding-bottom: 60px;
+    font-family: 'Sawarabi Mincho', sans-serif;
 }
 
 .company_heading img {
+    margin: 0px 79px;
     border-radius: 2%;
+    width: 50%;
 }
 
 
 .company-list {
     background: #f8f8f8;
     padding: 72px 0 68px;
-    font-family: source-han-sans-japanese,"ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¸ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¸ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â´ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â·ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¯ Medium","ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¸ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¸ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â´ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â·ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¤ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â½ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â‚¬Å“",Yu Gothic Medium,YuGothic,"ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â®ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â½ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¨ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â´ ProN",Hiragino Kaku Gothic ProN,"ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¤ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂªÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Âª",Meiryo,"ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¼ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â­ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¼ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â³ ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¼ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â°ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â´ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â·ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¯",MS PGothic,sans-serif;
+    font-family: 'Sawarabi Mincho', sans-serif;
 }
 
 
@@ -498,6 +509,23 @@ dd {
 }
 
 /*-------CSS CHO MENU TOP-------*/
+
+.fix {
+  left: 0;
+  max-width: 100%;
+  overflow: visible;
+  position: fixed !important;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+nav.navbar.navbar-light.fix {
+    background: white;
+    box-shadow: 0 20px 40px 0 rgba(10,10,10,.06);
+}
+
+
 .menutop a.navbar-brand {
     display: block;
     float: none;
@@ -508,15 +536,16 @@ dd {
 
 a.navbar-brand.logo {
     font-size: 20px;
-    font-family: "Lucida Grande","Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    font-family: 'Sawarabi Mincho', sans-serif;
     color: #928285;
-    padding: 15px;
+    padding: 0px;
+    padding-bottom: 10px;
 }
 
 .menutop ul.nav.navbar-nav {
     text-align: center;
     display: block;
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
 }
 
 .menutop .navbar-nav .nav-item {
@@ -535,7 +564,7 @@ a.navbar-brand.logo {
     text-transform: uppercase;
     padding:32px 23px;
     font-size: 14px;
-    font-family: "Lucida Grande","Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    font-family: 'Sawarabi Mincho', sans-serif;
     font-weight: 700;  
     /*color: white;*/
     transition: 0.3s;
@@ -571,7 +600,7 @@ a.navbar-brand.logo {
     font-weight: 600;
     padding-bottom: 20px;
     padding-top: 20px;
-    font-family: "Lucida Grande","Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    font-family: 'Sawarabi Mincho', sans-serif;
     line-height: 50px;
 }
 
@@ -581,14 +610,15 @@ a.navbar-brand.logo {
 }
 
 .banner {
-    font-family: 'Roboto', arial, sans-serif;
+    font-family: 'Sawarabi Mincho', sans-serif;
     color:#917d7f;
     font-weight: bold;
+    padding-top: 130px;
 }
 
 .banner a {
     font-size: 20px;
-    font-family: "roboto slab", serif;
+    font-family: 'Sawarabi Mincho', sans-serif;
     font-weight: 700;
     padding: 10px 40px;
     background: #ec6952;
@@ -602,7 +632,7 @@ a.navbar-brand.logo {
 
 h2 {
     font-size: 40px;
-    font-family: 'Roboto', arial, sans-serif;
+    font-family: 'Sawarabi Mincho', sans-serif;
     font-weight: 700;
     color: #f7817c;
 }
@@ -612,7 +642,7 @@ h2 {
 }
 
 .banner p {
-    font-family: "Lucida Grande","Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    font-family: 'Sawarabi Mincho', sans-serif;
     color: #756c6c;
 }
 
@@ -624,7 +654,7 @@ h2 {
     border-bottom: solid 1px #efabab;
     font-weight: bold;
     font-size: 30px;
-    font-family: 'Roboto', arial, sans-serif;
+    font-family: 'Sawarabi Mincho', sans-serif;
     color: #efabab;
 }
 
@@ -633,12 +663,12 @@ blockquote.blockquote {
     border-left: 4px solid #efabab;
     border-radius: 4px;
     font-size: 15px;
-    font-family: 'Roboto', arial, sans-serif;
+    font-family: 'Sawarabi Mincho', sans-serif;
 }
 
 
 a.logo {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Sawarabi Mincho', sans-serif;
     font-size: 15px;
     text-transform: uppercase;
 }
@@ -672,7 +702,7 @@ ul.tdtab{
 ul.tdtab li b {
     cursor: pointer;
     font-weight: 500;
-    font-family: 'Roboto', arial, sans-serif;
+    font-family: 'Sawarabi Mincho', sans-serif;
     text-transform: uppercase;
     font-size: 15px;
     color: #e07373;
@@ -716,10 +746,7 @@ ul.ndtab{
 }
 
 .block_case {
-        font-family: source-han-sans-japanese,
-                    Yu Gothic Medium,YuGothic,
-                    Hiragino Kaku Gothic ProN,
-                    Meiryo,MS PGothic,sans-serif;
+    font-family: 'Sawarabi Mincho', sans-serif;
     box-shadow: 0 20px 40px 0 rgba(10,10,10,.06);
     background: #fff;
     border-radius: 5px;
@@ -893,27 +920,20 @@ table {
     margin-top: -8px;
 }
 
-/*.ndtin {
-    border: 3px solid white;
-    margin:-37px 40px 0px 40px;
-    position: absolute;
-    padding: 76px 37px 37px 37px;
-
-}*/
 
 .ndtin a.td1tin{
     color: #222;
     text-transform: uppercase;
     text-decoration: none;
     line-height: 26px;
-    font-family:  'Roboto', arial, sans-serif;
+    font-family: 'Sawarabi Mincho', sans-serif;
     margin-bottom: 8px;
     display:block;
 }
 
 
 .ndtin p{
-    font-family:  'Roboto', arial, sans-serif;
+    font-family: 'Sawarabi Mincho', sans-serif;
     font-size: 15px;
     line-height: 26px;
     color: #777;
@@ -956,7 +976,7 @@ footer .foot {
 }
 
 .copyright p {
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-family: 'Sawarabi Mincho', sans-serif;
     color: #756c6c;
     font-size: smaller;
 
@@ -1058,6 +1078,7 @@ div#slidecmt {
 }
 
 .child-visual {
+    top: 93px;
     position: relative;
     height: 200px;
     overflow: hidden;
@@ -1070,7 +1091,7 @@ div#slidecmt {
 .add-bg .child-visual__title {
     font-size: 34px;
     color: #fff;
-    font-family:  "Lucida Grande","Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    font-family: 'Sawarabi Mincho', sans-serif;
 }
 
 
@@ -1116,6 +1137,19 @@ div#slidecmt {
     * {
         
     }
+
+.company_heading {
+    padding-top: 85px;
+    padding-bottom: 0px;
+}
+
+section.child-visual.add-bg {
+    top: 56px;
+}
+
+.banner {
+    padding-top: 80px;
+}
 
 section.top-reason {
     padding-top: 60px;

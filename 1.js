@@ -13,25 +13,31 @@
 
  	});
 
- 	//hieu ung cho menu
- 	Addservices = $('#InfoServices').offset().top;
- 	$('.services').click(function() {
- 		/* Act on the event */
- 		$('body,html').animate({scrollTop:Addservices},700);
- 	});
 
+ 	jQuery(document).ready(function($) {
+        var $filter = $('.navbar');
+        var $filterSpacer = $('<div />', {
+            "class": "vnkings-spacer",
+            "height": $filter.outerHeight()
+        });
+        if ($filter.size())
+        {
+            $(window).scroll(function ()
+            {
+                if (!$filter.hasClass('fix') && $(window).scrollTop() > $filter.offset().top)
+                {
+                    $filter.before($filterSpacer);
+                    $filter.addClass("fix");
+                }
+                else if ($filter.hasClass('fix')  && $(window).scrollTop() < $filterSpacer.offset().top)
+                {
+                    $filter.removeClass("fix");
+                    $filterSpacer.remove();
+                }
+            });
+        }
 
- 	AddCaseStudies = $('#casestudies').offset().top;
- 	$('.casestudies').click(function() {
- 		/* Act on the event */
- 		$('body,html').animate({scrollTop:AddCaseStudies},700);
- 	});
-
- 	AddNews = $('#News').offset().top;
- 	$('.news').click(function() {
- 		/* Act on the event */
- 		$('body,html').animate({scrollTop:AddNews},700);
- 	});
+    });
 
 })  
  
